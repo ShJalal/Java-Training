@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Path sourceFile = Paths.get("files" , "target.txt");
-        Path targetFile = Paths.get("files" , "get.txt");
+        Path targetFile = Paths.get("files" , "test.txt");
 
         try {
             Files.copy(sourceFile,targetFile , StandardCopyOption.REPLACE_EXISTING);
